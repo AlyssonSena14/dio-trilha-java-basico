@@ -1,7 +1,8 @@
-package MSNMessenger;
+package MSNMessenger.apps;
 
 public class Telegram extends ServicoMensagemInstatanea {
-        public void enviarMensagem(){
+    public void enviarMensagem(){
+        validarConectadoInternt();
             System.out.println("Enviando Mensagem Pelo Telegram");
         }
 

@@ -1,22 +1,28 @@
 package MSNMessenger;
 
+import MSNMessenger.apps.FacebookMessenger;
+import MSNMessenger.apps.MSNMessenger;
+import MSNMessenger.apps.ServicoMensagemInstatanea;
+import MSNMessenger.apps.Telegram;
+
 public class ComputadorPedrinho {
     public static void main(String[] args) {
         //Abrindo o MSN Menssenger
-        MSNMessenger msn = new MSNMessenger();
-        System.out.println("Menssenger");
-        msn.enviarMensagem();
-        msn.enviarMensagem();
+        ServicoMensagemInstatanea smi = null;
 
-        System.out.println("Facebook");
-        FacebookMessenger fcb = new FacebookMessenger();
-        fcb.enviarMensagem();
-        fcb.receberMensagem();
+        String appEscolhido = "tlg";
 
-        System.out.println("Telegram");
-        Telegram tlg = new Telegram();
-        tlg.enviarMensagem();
-        tlg.receberMensagem();
+        if (appEscolhido.equals("msn"))
+            smi = new MSNMessenger();
+        if (appEscolhido.equals("tlg"))
+            smi = new Telegram();
+        if (appEscolhido.equals("fbm"))
+            smi = new FacebookMessenger();
+
+        smi.enviarMensagem();
+        smi.receberMensagem();
+
+
 
 
 
