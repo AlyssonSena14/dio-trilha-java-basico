@@ -11,6 +11,8 @@ public class Estabelecimento {
 
         //ações que estabelecimento precisa ter ciência
         cozinheiro.adicionarSucoNoBalcao();
+
+
         cozinheiro.adicionarLancheNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
 
