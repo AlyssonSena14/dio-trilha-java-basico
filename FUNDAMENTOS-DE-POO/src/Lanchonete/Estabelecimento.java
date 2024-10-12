@@ -15,7 +15,7 @@ public class Estabelecimento {
         cozinheiro.adicionarComboNoBalcao();
 
         Almoxarife almoxarife = new Almoxarife();
-        //  // ações que não precisam esta disponíveis para toda aplicação
+        //  // ações que não precisam esta disponíveis para toda aplicaçãoa
         almoxarife.controlarEntrada();
         almoxarife.controlarSaida();
 
