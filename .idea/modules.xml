@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CONTA-BANCO/CONTA-BANCO.iml" filepath="$PROJECT_DIR$/CONTA-BANCO/CONTA-BANCO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Controle-Candidatos/Controle-Candidatos.iml" filepath="$PROJECT_DIR$/Controle-Candidatos/Controle-Candidatos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DESAFIOS-DE-CODIGO/DESAFIOS-DE-CODIGO.iml" filepath="$PROJECT_DIR$/DESAFIOS-DE-CODIGO/DESAFIOS-DE-CODIGO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio-Contador/Desafio-Contador.iml" filepath="$PROJECT_DIR$/Desafio-Contador/Desafio-Contador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioIphoneDio/DesafioIphoneDio.iml" filepath="$PROJECT_DIR$/DesafioIphoneDio/DesafioIphoneDio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ESTRUTURAS-DE-REPETIÇÃO/ESTRUTURAS-DE-REPETIÇÃO.iml" filepath="$PROJECT_DIR$/ESTRUTURAS-DE-REPETIÇÃO/ESTRUTURAS-DE-REPETIÇÃO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estruturas-Condicionais/Estruturas-Condicionais.iml" filepath="$PROJECT_DIR$/Estruturas-Condicionais/Estruturas-Condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FUNDAMENTOS-DE-POO/FUNDAMENTOS-DE-POO.iml" filepath="$PROJECT_DIR$/FUNDAMENTOS-DE-POO/FUNDAMENTOS-DE-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" filepath="$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" filepath="$PROJECT_DIR$/sistema-smart-tv/sistema-smart-tv.iml" />
+    </modules>
+  </component>
+</project>
