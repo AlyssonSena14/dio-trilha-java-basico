@@ -27,15 +27,20 @@ public class Ordenacao {
         return pessoasPorAltura;
     }
 
+
+
+
     public static void main(String[] args) {
         Ordenacao ordenacao = new Ordenacao();
+
+
         ordenacao.adicionarPessoas("nome 1", 20, 1.56 );
         ordenacao.adicionarPessoas("nome 2", 30, 1.80 );
         ordenacao.adicionarPessoas("nome 3", 25, 1.70 );
         ordenacao.adicionarPessoas("nome 4", 17, 1.56 );
 
-        System.out.println(ordenacao.ordenarPorIdade());
         System.out.println(ordenacao.ordenarPorAltura());
+        System.out.println(ordenacao.ordenarPorIdade());
 
     }
 

@@ -12,6 +12,9 @@ public class Pessoas implements Comparable <Pessoas>{
         this.idade = idade;
         this.altura = altura;
     }
+    public int compareTo(Pessoas p) {
+        return Integer.compare(idade, p.getIdade());
+    }
 
     public String getNome() {
         return nome;
@@ -25,9 +28,12 @@ public class Pessoas implements Comparable <Pessoas>{
         return altura;
     }
 
-    @Override
-    public int compareTo(Pessoas p) {
-        return Integer.compare(idade, p.idade);
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", altura=" + altura +
+                '}';
     }
 }
 

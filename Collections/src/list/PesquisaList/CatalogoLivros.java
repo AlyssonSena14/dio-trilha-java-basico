@@ -62,9 +62,9 @@ public class CatalogoLivros {
         catalogoLivros.adicionarLivro("Livro 3 ", "Autor 3", 2020);
         catalogoLivros.adicionarLivro("Livro 4 ", "Autor 4", 2020);
 
-        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
-        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(020, 2022));
-        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro 1 "));
+        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 4"));
+        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2020, 2022));
+        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro 2 "));
 
 
     }
