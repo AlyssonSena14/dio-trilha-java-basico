@@ -1,5 +1,5 @@
-package list.carrinhoDeCompras;
-import java.awt.event.ItemListener;
+package list.OperacoesBasicas;
+
 import java.util.ArrayList;
 import java.util.List;
 
