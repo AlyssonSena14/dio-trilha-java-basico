@@ -65,10 +65,10 @@ public class SomaNumero {
         somaNumeros.calcularsoma();
 
         somaNumeros.exibirNumeros();
-        System.out.println("Total de Numeros: " + somaNumeros.calcularsoma());
+        System.out.println("Total de Numeros:" + somaNumeros.calcularsoma());
         somaNumeros.encontrarNumeroMaior();
-        System.out.println("o numero maior e :" + somaNumeros.encontrarNumeroMaior());
-        System.out.println("o numero Menor e :" + somaNumeros.encontrarNumeroMenor());
+        System.out.println("o numero maior e:" + somaNumeros.encontrarNumeroMaior());
+        System.out.println("o numero Menor e:" + somaNumeros.encontrarNumeroMenor());
 
     }
 }
