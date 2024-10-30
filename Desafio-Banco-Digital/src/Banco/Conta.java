@@ -50,6 +50,8 @@ public abstract class Conta implements Iconta {
     }
     protected void informacaoComum() {
         System.out.println(String.format("Titular: %s" ,this.cliente.getNome()));
+        System.out.println(String.format("CPF: %d", this.cliente.getcpf()));
+        System.out.println(String.format("Email: %S", this.cliente.getEmail()));
         System.out.println(String.format("Agencia: %d" ,this.agencia));
         System.out.println(String.format("Numero da conta: %d" ,this.numeroConta));
         System.out.println(String.format("Saldo: %.2f" ,this.saldo));

@@ -1,9 +1,13 @@
 package Banco;
 
+import java.util.Scanner;
+
 public class Teste {
     public static void main(String[] args) {
         Cliente alysson = new Cliente();
-        alysson.setNome("Alysson");
+        Scanner sc = new Scanner(System.in);
+        alysson.setNome("Alysson", 15792357, "Alyssonsena566@gmail.com");
+
 
         Conta cc = new ContaCorrente(alysson);
         Conta cp = new ContaPoupanca(alysson);
@@ -16,6 +20,7 @@ public class Teste {
 
         cp.imprimirExtrato();
         cc.imprimirExtrato();
+
 
 
 
